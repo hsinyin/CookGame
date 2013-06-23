@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48B5F2AA1776D6C5009726E3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B5F2A91776D6C5009726E3 /* UIKit.framework */; };
+		48B5F2AC1776D6C5009726E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B5F2AB1776D6C5009726E3 /* Foundation.framework */; };
+		48B5F2AE1776D6C5009726E3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48B5F2AD1776D6C5009726E3 /* CoreGraphics.framework */; };
+		48B5F2B41776D6C5009726E3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2B21776D6C5009726E3 /* InfoPlist.strings */; };
+		48B5F2B61776D6C5009726E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5F2B51776D6C5009726E3 /* main.m */; };
+		48B5F2BA1776D6C5009726E3 /* IOSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5F2B91776D6C5009726E3 /* IOSAppDelegate.m */; };
+		48B5F2BC1776D6C5009726E3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2BB1776D6C5009726E3 /* Default.png */; };
+		48B5F2BE1776D6C5009726E3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2BD1776D6C5009726E3 /* Default@2x.png */; };
+		48B5F2C01776D6C5009726E3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2BF1776D6C5009726E3 /* Default-568h@2x.png */; };
+		48B5F2C31776D6C5009726E3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2C11776D6C5009726E3 /* MainStoryboard_iPhone.storyboard */; };
+		48B5F2C61776D6C5009726E3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2C41776D6C5009726E3 /* MainStoryboard_iPad.storyboard */; };
+		48B5F2C91776D6C5009726E3 /* IOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5F2C81776D6C5009726E3 /* IOSViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48B5F2A61776D6C5009726E3 /* CookGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B5F2A91776D6C5009726E3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		48B5F2AB1776D6C5009726E3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48B5F2AD1776D6C5009726E3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		48B5F2B11776D6C5009726E3 /* CookGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CookGame-Info.plist"; sourceTree = "<group>"; };
+		48B5F2B31776D6C5009726E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		48B5F2B51776D6C5009726E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48B5F2B71776D6C5009726E3 /* CookGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CookGame-Prefix.pch"; sourceTree = "<group>"; };
+		48B5F2B81776D6C5009726E3 /* IOSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSAppDelegate.h; sourceTree = "<group>"; };
+		48B5F2B91776D6C5009726E3 /* IOSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSAppDelegate.m; sourceTree = "<group>"; };
+		48B5F2BB1776D6C5009726E3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		48B5F2BD1776D6C5009726E3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		48B5F2BF1776D6C5009726E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		48B5F2C21776D6C5009726E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		48B5F2C51776D6C5009726E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		48B5F2C71776D6C5009726E3 /* IOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSViewController.h; sourceTree = "<group>"; };
+		48B5F2C81776D6C5009726E3 /* IOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48B5F2A31776D6C5009726E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B5F2AA1776D6C5009726E3 /* UIKit.framework in Frameworks */,
+				48B5F2AC1776D6C5009726E3 /* Foundation.framework in Frameworks */,
+				48B5F2AE1776D6C5009726E3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48B5F29D1776D6C4009726E3 = {
+			isa = PBXGroup;
+			children = (
+				48B5F2AF1776D6C5009726E3 /* CookGame */,
+				48B5F2A81776D6C5009726E3 /* Frameworks */,
+				48B5F2A71776D6C5009726E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48B5F2A71776D6C5009726E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48B5F2A61776D6C5009726E3 /* CookGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48B5F2A81776D6C5009726E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48B5F2A91776D6C5009726E3 /* UIKit.framework */,
+				48B5F2AB1776D6C5009726E3 /* Foundation.framework */,
+				48B5F2AD1776D6C5009726E3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48B5F2AF1776D6C5009726E3 /* CookGame */ = {
+			isa = PBXGroup;
+			children = (
+				48B5F2B81776D6C5009726E3 /* IOSAppDelegate.h */,
+				48B5F2B91776D6C5009726E3 /* IOSAppDelegate.m */,
+				48B5F2C11776D6C5009726E3 /* MainStoryboard_iPhone.storyboard */,
+				48B5F2C41776D6C5009726E3 /* MainStoryboard_iPad.storyboard */,
+				48B5F2C71776D6C5009726E3 /* IOSViewController.h */,
+				48B5F2C81776D6C5009726E3 /* IOSViewController.m */,
+				48B5F2B01776D6C5009726E3 /* Supporting Files */,
+			);
+			path = CookGame;
+			sourceTree = "<group>";
+		};
+		48B5F2B01776D6C5009726E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48B5F2B11776D6C5009726E3 /* CookGame-Info.plist */,
+				48B5F2B21776D6C5009726E3 /* InfoPlist.strings */,
+				48B5F2B51776D6C5009726E3 /* main.m */,
+				48B5F2B71776D6C5009726E3 /* CookGame-Prefix.pch */,
+				48B5F2BB1776D6C5009726E3 /* Default.png */,
+				48B5F2BD1776D6C5009726E3 /* Default@2x.png */,
+				48B5F2BF1776D6C5009726E3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48B5F2A51776D6C5009726E3 /* CookGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48B5F2CC1776D6C5009726E3 /* Build configuration list for PBXNativeTarget "CookGame" */;
+			buildPhases = (
+				48B5F2A21776D6C5009726E3 /* Sources */,
+				48B5F2A31776D6C5009726E3 /* Frameworks */,
+				48B5F2A41776D6C5009726E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CookGame;
+			productName = CookGame;
+			productReference = 48B5F2A61776D6C5009726E3 /* CookGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48B5F29E1776D6C4009726E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IOS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Hsin-Yin";
+			};
+			buildConfigurationList = 48B5F2A11776D6C4009726E3 /* Build configuration list for PBXProject "CookGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48B5F29D1776D6C4009726E3;
+			productRefGroup = 48B5F2A71776D6C5009726E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48B5F2A51776D6C5009726E3 /* CookGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48B5F2A41776D6C5009726E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B5F2B41776D6C5009726E3 /* InfoPlist.strings in Resources */,
+				48B5F2BC1776D6C5009726E3 /* Default.png in Resources */,
+				48B5F2BE1776D6C5009726E3 /* Default@2x.png in Resources */,
+				48B5F2C01776D6C5009726E3 /* Default-568h@2x.png in Resources */,
+				48B5F2C31776D6C5009726E3 /* MainStoryboard_iPhone.storyboard in Resources */,
+				48B5F2C61776D6C5009726E3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48B5F2A21776D6C5009726E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48B5F2B61776D6C5009726E3 /* main.m in Sources */,
+				48B5F2BA1776D6C5009726E3 /* IOSAppDelegate.m in Sources */,
+				48B5F2C91776D6C5009726E3 /* IOSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		48B5F2B21776D6C5009726E3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B5F2B31776D6C5009726E3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		48B5F2C11776D6C5009726E3 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B5F2C21776D6C5009726E3 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		48B5F2C41776D6C5009726E3 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48B5F2C51776D6C5009726E3 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48B5F2CA1776D6C5009726E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48B5F2CB1776D6C5009726E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48B5F2CD1776D6C5009726E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookGame/CookGame-Prefix.pch";
+				INFOPLIST_FILE = "CookGame/CookGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		48B5F2CE1776D6C5009726E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CookGame/CookGame-Prefix.pch";
+				INFOPLIST_FILE = "CookGame/CookGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48B5F2A11776D6C4009726E3 /* Build configuration list for PBXProject "CookGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B5F2CA1776D6C5009726E3 /* Debug */,
+				48B5F2CB1776D6C5009726E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48B5F2CC1776D6C5009726E3 /* Build configuration list for PBXNativeTarget "CookGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48B5F2CD1776D6C5009726E3 /* Debug */,
+				48B5F2CE1776D6C5009726E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48B5F29E1776D6C4009726E3 /* Project object */;
+}
