@@ -19,6 +19,7 @@
 		48B5F2C31776D6C5009726E3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2C11776D6C5009726E3 /* MainStoryboard_iPhone.storyboard */; };
 		48B5F2C61776D6C5009726E3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B5F2C41776D6C5009726E3 /* MainStoryboard_iPad.storyboard */; };
 		48B5F2C91776D6C5009726E3 /* IOSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5F2C81776D6C5009726E3 /* IOSViewController.m */; };
+		48B5F2D11776D9C5009726E3 /* MaterialMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B5F2D01776D9C5009726E3 /* MaterialMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		48B5F2C51776D6C5009726E3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		48B5F2C71776D6C5009726E3 /* IOSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IOSViewController.h; sourceTree = "<group>"; };
 		48B5F2C81776D6C5009726E3 /* IOSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSViewController.m; sourceTree = "<group>"; };
+		48B5F2CF1776D9C5009726E3 /* MaterialMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MaterialMap.h; path = Model/MaterialMap.h; sourceTree = "<group>"; };
+		48B5F2D01776D9C5009726E3 /* MaterialMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MaterialMap.m; path = Model/MaterialMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				48B5F2C71776D6C5009726E3 /* IOSViewController.h */,
 				48B5F2C81776D6C5009726E3 /* IOSViewController.m */,
 				48B5F2B01776D6C5009726E3 /* Supporting Files */,
+				48B5F2CF1776D9C5009726E3 /* MaterialMap.h */,
+				48B5F2D01776D9C5009726E3 /* MaterialMap.m */,
 			);
 			path = CookGame;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				48B5F2B61776D6C5009726E3 /* main.m in Sources */,
 				48B5F2BA1776D6C5009726E3 /* IOSAppDelegate.m in Sources */,
 				48B5F2C91776D6C5009726E3 /* IOSViewController.m in Sources */,
+				48B5F2D11776D9C5009726E3 /* MaterialMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
