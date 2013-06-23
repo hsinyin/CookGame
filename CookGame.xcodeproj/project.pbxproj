@@ -85,8 +85,6 @@
 		48B5F2AF1776D6C5009726E3 /* CookGame */ = {
 			isa = PBXGroup;
 			children = (
-				48B5F2B81776D6C5009726E3 /* IOSAppDelegate.h */,
-				48B5F2B91776D6C5009726E3 /* IOSAppDelegate.m */,
 				48B5F2C11776D6C5009726E3 /* MainStoryboard_iPhone.storyboard */,
 				48B5F2C41776D6C5009726E3 /* MainStoryboard_iPad.storyboard */,
 				48B5F2C71776D6C5009726E3 /* IOSViewController.h */,
@@ -99,6 +97,8 @@
 		48B5F2B01776D6C5009726E3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				48B5F2B81776D6C5009726E3 /* IOSAppDelegate.h */,
+				48B5F2B91776D6C5009726E3 /* IOSAppDelegate.m */,
 				48B5F2B11776D6C5009726E3 /* CookGame-Info.plist */,
 				48B5F2B21776D6C5009726E3 /* InfoPlist.strings */,
 				48B5F2B51776D6C5009726E3 /* main.m */,
